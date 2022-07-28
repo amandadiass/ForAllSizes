@@ -1,9 +1,9 @@
 const mongoose = require ("mongoose")
 
-const usuarioSchema = new mongoose.Schema({
+const userSchema = new mongoose.Schema({
     id: mongoose.Schema.Types.ObjectId,
 
-    nome: {
+    name: {
         type: String,
         required: true
     },
@@ -16,14 +16,17 @@ const usuarioSchema = new mongoose.Schema({
 
     },
 
-    dataNascimento: {
-        type: Date 
-    }
+    password: {
+        type: String, 
+        required: true,
+    },
 
-    //como diferenciar para fazer a de blogueira?? 
+    verified: {
+        type: Boolean
+    }
 
 }, {timestamps: true})
 
-const Usuario = mongoose.model("usuario", usuarioSchema)
+const user = mongoose.model("user", userSchema)
 
-module.exports = Usuario;
+module.exports = user;
