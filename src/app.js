@@ -15,7 +15,7 @@ app.get('/', (req, rest) => {
         
         title: "Reprograma -> For All Sizes - Projeto Final",
         version: "1.0.0",
-        mensagem: "Olá, mudar aqui."
+        mensagem: "Olá, esta é uma API pensada para comunicação - troca de ideias, projetos de lei e serviços - de pessoas gordas. A intenção é criar um ambiente seguro onde possamos interagir"
         
     })
 } )
