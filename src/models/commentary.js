@@ -1,9 +1,9 @@
 const mongoose = require ("mongoose")
 
-const commentSchema = new mongoose.Schema({
+const commentarySchema = new mongoose.Schema({
     id: mongoose.Schema.Types.ObjectId,
 
-    autor: {
+    author: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
         ref: "usuario"
@@ -20,6 +20,6 @@ const commentSchema = new mongoose.Schema({
 
 })
 
-const comment = mongoose.model("comment", commentSchema)
+const commentary = mongoose.model("commentary", commentarySchema)
 
-module.exports = comment;
+module.exports = commentary;

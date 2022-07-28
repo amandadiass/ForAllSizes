@@ -10,9 +10,9 @@ router.get("/publication/:id", controller.getPublicationById)
 router.delete("/publication/:id", controller.deletePublicationById)
 router.put("/publication/:id", controller.updatePublicationById)
 
-// router.post("/publication/:id/comment", controller.createComment)
-// router.patch("/publication/:id/comment/:id", controller.likeComment)
-// router.delete("/publication/:id/comment/:id", controller.deleteComment)
+router.post("/publication/:id/commentary", controller.createCommentary)
+router.patch("/publication/:id/commentary/:commentaryId", controller.likeCommentary)
+router.delete("/publication/:id/commentary/:commentaryId", controller.deleteCommentary)
 
 
 module.exports = router
