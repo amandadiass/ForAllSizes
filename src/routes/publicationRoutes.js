@@ -12,6 +12,7 @@ router.put("/publication/:id", controller.updatePublicationById)
 
 router.post("/publication/:id/commentary", controller.createCommentary)
 router.patch("/publication/:id/commentary/:commentaryId", controller.likeCommentary)
+router.put("/publication/:id/commentary/:commentaryId", controller.editCommentary)
 router.delete("/publication/:id/commentary/:commentaryId", controller.deleteCommentary)
 
 

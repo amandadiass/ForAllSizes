@@ -25,6 +25,35 @@ const getAll = (req, res) => {
     })
 }
 
+const updatePassword = async (req, res) => {
+    try {
+        const authHeader = req.get('authorization')
+
+        if (!authHeader) {
+            return res.status(401).json({ message: "User not logged in" })
+        }
+        const token = authHeader.split(" ")[1]
+        decoded = await jwt.verify(token, SECRET, async function (err, user) {
+            if (err) {
+                return res.status(403).send("Not authorized")
+            } 
+            userModel.findOne({email: user.email}, (err, user1) => {
+                if (err) {
+                    return res.status(403).send("User not found")
+                }
+                const { password } = req.body
+                user1.password = bcrypt.hashSync(password, 4) || user1.password
+                user1.save((err, u) => {
+                    res.status(200).json(u)
+                })  
+                  
+            })
+        })
+    } catch (error) {
+        res.status(500).json({ message: error.message })
+    }
+}
+
 const deleteById = async (req, res) => {
     try {
         const { id } = req.params
@@ -57,5 +86,6 @@ module.exports = {
     create,
     getAll,
     deleteById,
-    login
+    login,
+    updatePassword
 }
