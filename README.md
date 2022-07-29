@@ -1,7 +1,7 @@
 <h1 align="center">
     <br>
     <p align="center">PROJETO: FOR ALL SIZES<p>
-</h1.
+</h1.>
 
 Olá, seja bem vind@! Esse projeto foi desenvolvido para demonstrar os conhecimentos adquiridos durante o  curso "Todas em Tech", da {reprograma}. 
 
