@@ -4,8 +4,7 @@
 </h1.>
 
 <p align="center">
-<img src=".assepts/for all sizes.png" width="50%" height="50%"/>
-</p>
+<img src="./assepts/fas.png" width="50%" height="50%"/></p>
 <br>
 
 
@@ -58,7 +57,7 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
    |         |- 📑 MongoConfig.js
    |
    |    |- 📁 models
-   |         |- 📑 commentary.js
+   |         |- 📑commentary.js
    |         |- 📑publication.js
    |           |- 📑user.js
    |
