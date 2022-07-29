@@ -8,7 +8,7 @@
 <br>
 
 
-Olá, seja bem vind@! Este projeto foi desenvolvido para demonstrar os conhecimentos adquiridos durante o  curso "Todas em Tech", da {reprograma}. 
+<p align="justify"> Olá, seja bem vind@! Este projeto foi desenvolvido para demonstrar os conhecimentos adquiridos durante o  curso "Todas em Tech", da {reprograma}. 
 
 
 # 📚JUSTIFICATIVA:
@@ -137,4 +137,46 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 | POST        | `/user/login`         | Criação de um login autenticado 
 | PATCH          | `/user`     | Atualiza uma senha  |
 | DELETE       | `/user/:id`         | Deleta um usuário a partir do ID fornecido            
+
+
+## 🛑​ PARA REALIZAR A INSTALAÇÃO NO SEU COMPUTADOR:
+
+
+
+1. Primeiro é necessário clonar o seguinte repositório:
+
+    ```bash
+    $ git clone https://github.com/amandadiass/ForAllSizes.git
+     ```
+
+2. Entre na seguinte pasta: 
+
+    ```bash
+    $ cd PROJETOFINAL/
+    ```
+    
+3. Para prosseguir, é necessário baixas as dependências: 
+
+   ```bash
+    $ npm install
+    ```
+4. Inicie o projeto com o comando: 
+
+   ```bash
+    $ npm start
+    ```   
+
+<br>
+
+---
+## ✔️​  VISUALIZAÇÃO DO FUNCIONAMENTO:
+
+## 🏗️ IMPLEMENTAÇÕES FUTURAS:
+
+* Desenvolver o front end do projeto;
+* Criar um espaço para administradores com funções que possam ajudar na segurança da comunidade;
+* Ajustar o projeto para ser visualizado com o Swagger.
+
+##  👩 SOBRE A AUTORA:
+
 
