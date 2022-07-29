@@ -3,9 +3,16 @@
     <p align="center">PROJETO: FOR ALL SIZES<p>
 </h1.>
 
-Olá, seja bem vind@! Esse projeto foi desenvolvido para demonstrar os conhecimentos adquiridos durante o  curso "Todas em Tech", da {reprograma}. 
+<p align="center">
+<img src=".assepts/for all sizes.png" width="50%" height="50%"/>
+</p>
+<br>
 
-# 💬 Justificativa
+
+Olá, seja bem vind@! Este projeto foi desenvolvido para demonstrar os conhecimentos adquiridos durante o  curso "Todas em Tech", da {reprograma}. 
+
+
+# 📚JUSTIFICATIVA:
 
 <p align="justify">
 A presença de influencers gordes nas redes sociais nos últimos anos é notória. Suas publicações atingem um público alvo que busca pela integração e aceitação do seu próprio corpo, na tentativa de estabelecer uma comunidade que possa  reafirmar a sua existência, lutando em meio a tantos discursos de ódio.  Contudo, apesar de contribuir para a inclusão das pautas de luta contra a gordofobia, é também nestas redes que estres grupos sofrem ataques. Influencers como: Thais Carla, Jéssica Lopes, Enam Asiam, Luciene Barros, Christian Johannes, Akeen, dentre muitos outros do meio, demonstram a importância de bater de frente contra preconceito institucionalizado pelos discursos médicos e midiáticos. Segundo a jornalista da CNN, Agnes Arruda: “A gordofobia é um preconceito contra pessoas gordas geralmente associado à questão estética, mas é mais profundo do que isso. Ela retroage em vários ambientes, segregando do convívio social, familiar, mercado de trabalho, limitando a vida da pessoa.”
@@ -14,7 +21,7 @@ A presença de influencers gordes nas redes sociais nos últimos anos é notóri
 É possível observar os ataques sofridos por estes influencers e também pelo público que os acompanha. Sabendo da importância de preservar esta luta e na intenção de criar um portal seguro para estas pessoas, foi desenvolvido o projeto FOR ALL SIZES.
 
 
-### 🔎 SOBRE A API:
+## 🔎 SOBRE A API:
 
 <p align="justify">
 O projeto "For All Sizes tem como objetivo a criação de um espaço seguro para pessoas gordas, de modo que estas possam compartilhar através de postagens e comentários, suas vivências, debates e leis que na conquista de direior e criminalização da gordofobia, serviços, moda e auto estima. 
@@ -25,10 +32,13 @@ O projeto "For All Sizes tem como objetivo a criação de um espaço seguro para
 
 ## ⚙️ FUNCIONALIDADES:
 
+- Listar todos os Usuários da API;
 - Cadastro de Usuários Verificados;
 - Cadastro de Usuários Públicos;
 - Criação, atualização e exclusão de postagens;
-- Criação, atualização, like e exclusão de comentários;
+- Alteração de senhas;
+- Criação, atualização, like e exclusão de comentários.
+
 
 ## 💻 MÉTODOS:
 <p align="justify">
@@ -93,4 +103,39 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 - [JWT](https://jwt.io/)
 
-<br>
+
+
+# 🔃 ROTAS
+
+
+## 🔃 ROTA INDEX
+
+| Método HTTP  | Endpoint                     | Descrição                            |
+| ------------ | ---------------------------- | ------------------------------------ |
+| GET          | `http://localhost:9090/`     |  Apresentação do projeto    |             |
+
+## 🔃 ROTAS - PUBLICAÇÕES
+
+| Método HTTP  | Endpoint              | Descrição                                  |
+| ------------ | --------------------- | ------------------------------------------ |
+| GET          | `/publication`         | Lista todas as publicações e filtros de categoria e autor             |
+| GET          | `/publication/:id`     | Encontra uma publicação por ID   |
+| POST        | `/publication`         | Criação de uma publicação               |
+| POST          | `/publication/:id/commentary`     | Criação de um comentário em uma publicação com ID fornecido  |
+| PUT          | `/publication/:Id`         | Atualizar uma publicação             |
+| PUT          | `/publication/:id/commentary/:commentaryId`     | Editar um determinado comentário de uma publicação fornecida  |
+|PATCH       | `/publication/:id/commentary/:commentaryId`         | Deixar like em uma publicação             |
+| DELETE          | `/publication/:id`     | Deletar uma publicação por ID  |
+| DELETE          | `/publication/:id/commentary:commentaryId`     | Deletar um comentário por ID  |
+    
+    
+## 🔃 ROTAS - USUÁRIOS
+
+| Método HTTP  | Endpoint              | Descrição                                  |
+| ------------ | --------------------- | ------------------------------------------ |
+| GET          | `/user`         | Listar todos os usuários cadastrados            |
+| POST          | `/user`     | Cadastra um novo usuário   |
+| POST        | `/user/login`         | Criação de um login autenticado 
+| PATCH          | `/user`     | Atualiza uma senha  |
+| DELETE       | `/user/:id`         | Deleta um usuário a partir do ID fornecido            
+
