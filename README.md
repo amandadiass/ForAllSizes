@@ -179,7 +179,7 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 
 >Criando um usuário
 <div align = "center">
-<img src='./assepts/CREATE_USER_AdobeExpress.gif'>
+<img src='./assepts/CREATEUSER_.gif'>
 
 </div>
 <br>
@@ -253,7 +253,7 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 
 >Atualizando publicação pelo ID:
 <div align = "center">
-<img src='./assepts/UPDATE-BY-ID.giff'>
+<img src='./assepts/UPDATE-BY-ID.gif'>
 
 </div>
 <br>
