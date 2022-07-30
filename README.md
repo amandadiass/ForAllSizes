@@ -171,25 +171,9 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 ---
 
 ## ✔️VISUALIZAÇÃO E FUNCIONAMENTO:
-
-# ✔️VISUALIZAÇÃO E FUNCIONAMENTO:
-
-
-<br>
-
 >Criando um usuário
 <div align = "center">
 <img src='./assepts/CREATE_USER_AdobeExpress.gif'>
 
 </div>
 <br>
-
-## 🏗️ IMPLEMENTAÇÕES FUTURAS:
-
-* Desenvolver o front end do projeto;
-* Criar um espaço para administradores com funções que possam ajudar na segurança da comunidade;
-* Ajustar o projeto para ser visualizado com o Swagger.
-
-##  👩 SOBRE A AUTORA:
-
-
