@@ -169,14 +169,16 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 <br>
 
 ---
-## ✔️​  VISUALIZAÇÃO DO FUNCIONAMENTO:
 
 # ✔️VISUALIZAÇÃO E FUNCIONAMENTO:
 
-##  ✔️ CRIANDO UM USUÁRIO:
+## <br>
 
-<p align="center">
-<img src=".assepts/CREATE_USER.gif" width="50%" height="50%"/></p>
+>Criando um usuário
+<div align = "center">
+<img src='./assepts/CREATE_USER.gif'>
+
+</div>
 <br>
 
 ## 🏗️ IMPLEMENTAÇÕES FUTURAS:
@@ -186,5 +188,4 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 * Ajustar o projeto para ser visualizado com o Swagger.
 
 ##  👩 SOBRE A AUTORA:
-
 
