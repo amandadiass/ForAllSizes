@@ -177,7 +177,7 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 
 >Criando um usuário
 <div align = "center">
-<img src='./assepts/CREATE USER.gif' width="100%" height="100%">
+<img src='./assepts/CREATE USER1.gif' width="100%" height="100%">
 
 </div>
 <br>
