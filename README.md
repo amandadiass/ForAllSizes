@@ -23,7 +23,7 @@ A presença de influencers gordes nas redes sociais nos últimos anos é notóri
 ## 🔎 SOBRE A API:
 
 <p align="justify">
-O projeto "For All Sizes tem como objetivo a criação de um espaço seguro para pessoas gordas, de modo que estas possam compartilhar através de postagens e comentários, suas vivências, debates e leis que na conquista de direior e criminalização da gordofobia, serviços, moda e auto estima. 
+O projeto "For All Sizes" tem como objetivo a criação de um espaço seguro para pessoas gordas, de modo que estas possam compartilhar através de postagens e comentários, suas vivências, debates e leis que na conquista de direior e criminalização da gordofobia, serviços, moda e auto estima. 
  Para isso, o cadastro de usuários foi divido da seguinte maneira:
 
  - **Usuários verificados**: Os influencers e lojistas que trabalham com a comunidade plus size passarão pelo processo de autenticação, garantindo a segurança de seus perfis. A partir disso, poderão fazer publicações divididas em três categorias: educação, pessoal e publicidade; Também poderão excluir comentários considerados maldosos e gerenciar sua postagem.
@@ -288,6 +288,7 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 
 </div>
 <br>
+
 ## 🏗️ IMPLEMENTAÇÕES FUTURAS:
 
 * Desenvolver o front end do projeto;
