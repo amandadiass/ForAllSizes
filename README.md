@@ -299,7 +299,7 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 
 |Autora|Vivência|
 |:------:|----|
-| <img src='./assepts/49b84b78-8d68-4d8c-86cf-e28bdd340036.jpg' width = 1000 > | Oi mundo! Sou Amanda Dias, paraibana, professora e desenvolvedora Back End. Sou uma mulher gorda e lgbtqia+ 🏳️‍🌈 e minhas experiências me guiaram na construção desta API. Trabalho com crianças e adolescentes desde 2018; A partir do curs "Todas em Tech" da {reprograma}, passei a criar API's, estudar lógica e entender linguagens de programação, a exemplo do JavaScript. Estou ansiosa para saber os novos rumos desta carreira. Se quiser conversar ou tirar alguma dúvida, sinta-se a vontade para me procurar nas redes sociais. |
+| <img src='./assepts/49b84b78-8d68-4d8c-86cf-e28bdd340036.jpg' width = 1000 > | Oi mundo! Sou Amanda Dias, paraibana, professora e desenvolvedora Back End. Sou uma mulher gorda e lgbtqia+ 🏳️‍🌈 e minhas experiências me guiaram na construção desta API. Trabalho com crianças e adolescentes desde 2018; A partir do curso "Todas em Tech" da {reprograma}, passei a criar API's, estudar lógica e entender linguagens de programação, a exemplo do JavaScript. Estou ansiosa para saber os novos rumos desta carreira. Se quiser conversar ou tirar alguma dúvida, sinta-se a vontade para me procurar nas redes sociais. |
 
 ##  🌈 REDES SOCIAIS
 
