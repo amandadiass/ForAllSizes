@@ -59,7 +59,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
    |    |- 📁 models
    |         |- 📑commentary.js
    |         |- 📑publication.js
-   |           |- 📑user.js
+   |         |- 📑user.js
    |
    |    |- 📁 routes
    |         |- 📑publicationRoutes.js 
@@ -179,7 +179,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Criando um usuário
 <div align = "center">
-<img src='./assepts/CREATEUSER_.gif'>
+<img src='./assets/CREATEUSER_.gif'>
 
 </div>
 <br>
@@ -189,7 +189,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Listando todos os usuários cadastrados
 <div align = "center">
-<img src='./assepts/GET ALL USERS.gif'>
+<img src='./assets/GET ALL USERS.gif'>
 
 </div>
 <br>
@@ -197,7 +197,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Realizando Login
 <div align = "center">
-<img src='./assepts/LOGIN.gif'>
+<img src='./assets/LOGIN.gif'>
 
 </div>
 <br>
@@ -205,7 +205,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Atualizando a senha
 <div align = "center">
-<img src='./assepts/UPDATE PASSWORD.gif'>
+<img src='./assets/UPDATE PASSWORD.gif'>
 
 </div>
 <br>
@@ -213,7 +213,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Criando uma publicação (apenas usuários autenticados).
 <div align = "center">
-<img src='./assepts/CREATE PUBLICATION.gif'>
+<img src='./assets/CREATE PUBLICATION.gif'>
 
 </div>
 <br>
@@ -221,7 +221,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Encontrando uma publicação por ID:
 <div align = "center">
-<img src='./assepts/GET PUBLI BY ID.gif'>
+<img src='./assets/GET PUBLI BY ID.gif'>
 
 </div>
 <br>
@@ -229,7 +229,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Listando todas as publicações
 <div align = "center">
-<img src='./assepts/1GETALLPUBLICATION.gif'>
+<img src='./assets/1GETALLPUBLICATION.gif'>
 
 </div>
 <br>
@@ -237,7 +237,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Listando as publicações por categoria:
 <div align = "center">
-<img src='./assepts/2GETALLPUBLICATION.gif'>
+<img src='./assets/2GETALLPUBLICATION.gif'>
 
 </div>
 <br>
@@ -245,7 +245,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Deletando publicações pelo ID:
 <div align = "center">
-<img src='./assepts/DELETE-PUBLICATION-BY-ID.gif'>
+<img src='./assets/DELETE-PUBLICATION-BY-ID.gif'>
 
 </div>
 <br>
@@ -253,7 +253,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Atualizando publicação pelo ID:
 <div align = "center">
-<img src='./assepts/UPDATE-BY-ID.gif'>
+<img src='./assets/UPDATE-BY-ID.gif'>
 
 </div>
 <br>
@@ -261,14 +261,14 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Criando um novo comentário (todos os usuários podem realizar esta ação):
 <div align = "center">
-<img src='./assepts/CREAT-COMMENT.gif'>
+<img src='./assets/CREAT-COMMENT.gif'>
 
 </div>
 <br>
 
 >Deixando o Like em um comentário:
 <div align = "center">
-<img src='./assepts/LIKE-COMMENT.gif'>
+<img src='./assets/LIKE-COMMENT.gif'>
 
 </div>
 <br>
@@ -276,7 +276,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Editando um comentário:
 <div align = "center">
-<img src='./assepts/EDIT-COMMENT.gif'>
+<img src='./assets/EDIT-COMMENT.gif'>
 
 </div>
 <br>
@@ -284,7 +284,7 @@ Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Fora
 
 >Deletando um comentário:
 <div align = "center">
-<img src='./assepts/DELETE-COMMENT.gif'>
+<img src='./assets/DELETE-COMMENT.gif'>
 
 </div>
 <br>
