@@ -171,6 +171,14 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 ---
 ## ✔️​  VISUALIZAÇÃO DO FUNCIONAMENTO:
 
+# ✔️VISUALIZAÇÃO E FUNCIONAMENTO:
+
+##  ✔️ CRIANDO UM USUÁRIO:
+
+<p align="center">
+<img src=".assepts/CREATE_USER.gif" width="50%" height="50%"/></p>
+<br>
+
 ## 🏗️ IMPLEMENTAÇÕES FUTURAS:
 
 * Desenvolver o front end do projeto;
