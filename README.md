@@ -170,6 +170,8 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 
 ---
 
+
+
 # ✔️VISUALIZAÇÃO E FUNCIONAMENTO:
 
 
@@ -177,11 +179,115 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 
 >Criando um usuário
 <div align = "center">
-<img src='./assepts/CREATEUSER_.gif'>
+<img src='./assepts/CREATE_USER_AdobeExpress.gif'>
 
 </div>
 <br>
 
+
+<br>
+
+>Listando todos os usuários cadastrados
+<div align = "center">
+<img src='./assepts/GET ALL USERS.gif'>
+
+</div>
+<br>
+<br>
+
+>Realizando Login
+<div align = "center">
+<img src='./assepts/LOGIN.gif'>
+
+</div>
+<br>
+<br>
+
+>Atualizando a senha
+<div align = "center">
+<img src='./assepts/UPDATE PASSWORD.gif'>
+
+</div>
+<br>
+<br>
+
+>Criando uma publicação (apenas usuários autenticados).
+<div align = "center">
+<img src='./assepts/CREATE PUBLICATION.gif'>
+
+</div>
+<br>
+<br>
+
+>Encontrando uma publicação por ID:
+<div align = "center">
+<img src='./assepts/GET PUBLI BY ID.gif'>
+
+</div>
+<br>
+<br>
+
+>Listando todas as publicações
+<div align = "center">
+<img src='./assepts/1GETALLPUBLICATION.gif'>
+
+</div>
+<br>
+<br>
+
+>Listando as publicações por categoria:
+<div align = "center">
+<img src='./assepts/2GETALLPUBLICATION.gif'>
+
+</div>
+<br>
+<br>
+
+>Deletando publicações pelo ID:
+<div align = "center">
+<img src='./assepts/DELETE-PUBLICATION-BY-ID.gif'>
+
+</div>
+<br>
+<br>
+
+>Atualizando publicação pelo ID:
+<div align = "center">
+<img src='./assepts/UPDATE-BY-ID.giff'>
+
+</div>
+<br>
+<br>
+
+>Criando um novo comentário (todos os usuários podem realizar esta ação):
+<div align = "center">
+<img src='./assepts/CREAT-COMMENT.gif'>
+
+</div>
+<br>
+
+>Deixando o Like em um comentário:
+<div align = "center">
+<img src='./assepts/LIKE-COMMENT.gif'>
+
+</div>
+<br>
+<br>
+
+>Editando um comentário:
+<div align = "center">
+<img src='./assepts/EDIT-COMMENT.gif'>
+
+</div>
+<br>
+<br>
+
+>Deletando um comentário:
+<div align = "center">
+<img src='./assepts/DELETE-COMMENT.gif'>
+
+</div>
+<br>
 ## 🏗️ IMPLEMENTAÇÕES FUTURAS:
 
 * Desenvolver o front end do projeto;
@@ -189,5 +295,4 @@ Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram
 * Ajustar o projeto para ser visualizado com o Swagger.
 
 ##  👩 SOBRE A AUTORA:
-
 
