@@ -41,7 +41,7 @@ O projeto "For All Sizes" tem como objetivo a criação de um espaço seguro par
 
 ## 💻 MÉTODOS:
 <p align="justify">
-Foi desenvolvida uma API com o método CRUD: Creat, Read, Update e Delete. Foram acrescentadas as rotas  necessárias para cada função e também o processo de autenticação para segurança da API. Na execução do banco de dados foi utilizado o MongoDB; E para os testes e ajuste de erros foi utilizado o Postman.
+Foi desenvolvida uma API com o método CRUD: Create, Read, Update e Delete. Foram acrescentadas as rotas  necessárias para cada função e também o processo de autenticação para segurança da API. Na execução do banco de dados foi utilizado o MongoDB; E para os testes e ajuste de erros foi utilizado o Postman.
 
 ## 📂 ARQUITETURA MVC
 ```
